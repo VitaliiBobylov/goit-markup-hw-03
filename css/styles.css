@@ -9,17 +9,37 @@ background-color: #fff;
 
 ul,ol{
     list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
 }
 
 a{
     text-decoration: none;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+
 
 
 /* heder*/ 
-
-
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-conteiner{
+display:flex;
+align-items: center;
+}
+.header-nav{
+    display:flex;
+align-items: center;
+}
 
 .logo{
     font-family: "Raleway",sans-serif;
@@ -30,17 +50,27 @@ a{
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.header-logo{
+    padding: 24px 0;
+    margin: 0 76px 0 0;
+}
 
 .header-logo .logo-part{
     color: #2e2f42;
 }
-
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .nav-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover{
@@ -52,13 +82,24 @@ a{
 }
 .contacts{
     font-style: normal;
+    margin-left: auto;
 }
+.contacts-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  
+}
+
 .contacts-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
+    display: block;
+   
 }
 
 .contacts-link:hover{
@@ -75,8 +116,11 @@ a{
 
 
 .section-btn{
-    background-color: #2e2f42;  
+    background-color: #2e2f42;
+    height: 600px;
+
 }
+
 .your-business{
 font-weight: 700;
 font-size: 56px;
@@ -84,7 +128,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: #ffffff;
 text-align: center;
+
 }
+
 
 
 .hero-button{
@@ -95,6 +141,14 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
+
+}
+.btn{
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+
 }
 .hero-button:hover{
     background-color: #404BBF;
