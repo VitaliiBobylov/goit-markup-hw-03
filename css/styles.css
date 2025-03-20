@@ -119,10 +119,13 @@ align-items: center;
 
 
 .section-btn{
+    width: 1158px;
     background-color: #2e2f42;
     height: 600px;
-
 }
+
+
+
 
 .your-business{
 font-weight: 700;
@@ -207,24 +210,45 @@ color: #434455;
 
 
 .team{
+   
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
     background-color: #f4f4fd;
 }
-.team-item{
-    background-color: #FFFFFF
+.div-team{
+    width: 100%;
 }
 .subtitle-team{
+padding: 120px 639px 72px; 
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
-text-align: center;
 text-transform: capitalize;
 }
-.team-item{
-    display: block
+
+.team-list{
+    width: 1158px;
+    height: 732px;
+}
+.div-list{
+    display: flex;
+
 }
 
+.team-item{
+    background-color: #FFFFFF
+}
+
+.div-team{
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 0 0 4px 4px;
+}
 
 .subtitle-images{
 font-weight: 500;
@@ -232,6 +256,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding: 32px 65px 8px;
 }
 .text-images{
 font-weight: 400;
@@ -239,13 +264,26 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+padding: 8px 68px 32px;;
 }
 
 
 /*portrfolio*/
+.portfolio
+{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
 
+}
+.div-portfolio{
+    width: 100%;
+    display: block;
+    
+}
 
-.subtitle-portfolio{
+.subtitle-portfolio-h{
+padding: 120px 611px 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -254,18 +292,78 @@ color: #2e2f42;
 text-transform: capitalize;
 text-align: center;
 }
+.div-portfolio-item{
+display: block;
+display: flex;
+
+}
+
+.portfolio-list{
+    display: flex;
+    flex: wrap;
+    gap: 24px;
+}
+.porfolio-two{
+
+}
+}
+.div-img{
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+    box-sizing: border-box;
+}
+}
 
 .porfolio-images{
+
 background-color: #fffff;
 display: block;
 }
 
 .porfolio-subtitle{
+    padding: px px px px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.porfolio-q{
+    padding: 32px 226px 8px 16px;
+}
+.text-q{
+    padding: 8px 314px 32px 16px;
+}
+.porfolio-w{
+    padding: 32px 172px 8px 16px;
+}
+.text-w{
+    padding: 8px 269px 32px 16px;
+}
+.porfolio-e{
+    padding: 32px 201px 8px 16px;
+}
+.text-e{
+    padding: 8px 314px 32px 16px;
+}
+.porfolio-r{padding: 32px 231px 8px 16px;
+}
+
+.text-r{padding: 8px 269px 32px 16px;
+}
+
+.porfolio-t{padding: 32px 163px 8px 16px;
+}
+
+.text-t{
+    padding: 8px 293px 32px 16px;
+}
+
+.porfolio-y{padding: 32px 202px 8px 16px;
+}
+
+.text-y{padding: 8px 269px 32px 16px;
 }
 
 .porfolio-text{
