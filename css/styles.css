@@ -32,7 +32,10 @@ a{
 .page-header{
     border-bottom: 1px solid #e7e9fc;
 }
-.header-conteiner{
+.conteiner-header{
+    width: 1158px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
 display:flex;
 align-items: center;
 }
@@ -218,6 +221,10 @@ color: #2e2f42;
 text-align: center;
 text-transform: capitalize;
 }
+.team-item{
+    display: block
+}
+
 
 .subtitle-images{
 font-weight: 500;
@@ -250,6 +257,7 @@ text-align: center;
 
 .porfolio-images{
 background-color: #fffff;
+display: block;
 }
 
 .porfolio-subtitle{
