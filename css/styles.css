@@ -119,7 +119,7 @@ align-items: center;
 
 
 .section-btn{
-    width: 1158px;
+    max-width: 100%;
     background-color: #2e2f42;
     height: 600px;
 }
@@ -175,18 +175,33 @@ cursor: pointer;
     letter-spacing: 0.02em;
     color: #2e2f42;
     }
-.benefits-p{
-        display: flex;
-        
-        width: calc((100% - 72px) / 3);
+
+    .conteiner-benefits{ 
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+       
+       
     }
-    
-.benefits-item{
-    padding:104px 264px;
+    .benefits-list{ 
+       
+       display: flex;
+       padding: 100px 0;
+    }
+        .benefits-item{
+            width: 264px;
+            height: 104px;
+            display: flex;
+            display: block;
+            gap: 24px;
+            
+    }
 
 
 
-}
+
+
+
 .benefits-subtitle{
 font-weight: 500;
 font-size: 20px;
@@ -202,6 +217,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+padding: 8px 24px 120px;
 
 }
 
@@ -210,44 +226,58 @@ color: #434455;
 
 
 .team{
-   
-    text-align: center;
+    width: 1158px;
     margin: 0 auto;
+    
     display: flex;
+    display: block;
     background-color: #f4f4fd;
 }
-.div-team{
-    width: 100%;
-}
+
+
 .subtitle-team{
-padding: 120px 639px 72px; 
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-color: #2e2f42;
-text-transform: capitalize;
-}
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize;
+    }
+    
+    .conteiner-div-team{ 
+       
+        width: 1158px;
+        height: 732px;
+        padding: 0 15px;
+    }
+    .div-ourteam{
+        display: flex;
+       
+    }
+ 
+    .team-list{
+        
+        display: flex;
+        width: 1158px;
+       
+       
+    }
+    .div-list{
+        display: block;
+        display: flex;
+        
+    }
+   
 
-.team-list{
-    width: 1158px;
-    height: 732px;
-}
-.div-list{
-    display: flex;
-
-}
-
+    .images-team{
+        padding: 0 24px;
+        display: block;
+        display: flex;
+    
+    }
 .team-item{
-    background-color: #FFFFFF
-}
 
-.div-team{
-    display: block; 
-    max-width: 100%; 
-    height: auto;
-    box-sizing: border-box;
-    border-radius: 0 0 4px 4px;
+    background-color: #FFFFFF
 }
 
 .subtitle-images{
@@ -269,21 +299,22 @@ padding: 8px 68px 32px;;
 
 
 /*portrfolio*/
-.portfolio
-{
-    text-align: center;
-    margin: 0 auto;
+.portfolio{
+    width: 1158px;
+    height: 1000px;
+     margin: 0 auto;
+     padding: 0 15px;
     display: flex;
+    display: block;
 
 }
 .div-portfolio{
-    width: 100%;
+     
     display: block;
     
 }
 
 .subtitle-portfolio-h{
-padding: 120px 611px 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -291,29 +322,30 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
 text-align: center;
+
 }
-.div-portfolio-item{
-display: block;
-display: flex;
+.portfolio-h{
+    margin: 0 auto;
+    display: flex;
 
 }
 
 .portfolio-list{
+    display: block;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     gap: 24px;
 }
-.porfolio-two{
 
-}
-}
+
 .div-img{
+    width: 360px;
+height: 420px
     display: block; 
-    max-width: 100%; 
-    height: auto;
-    box-sizing: border-box;
+   
+    
 }
-}
+
 
 .porfolio-images{
 
@@ -322,7 +354,7 @@ display: block;
 }
 
 .porfolio-subtitle{
-    padding: px px px px;
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -379,7 +411,17 @@ color: #434455;
 
 
 .footer{
+    margin: 0 auto;
+    width: 1158px;
+height: 312px;
+padding: 0 15px;
     background-color: #2e2f42;
+}
+.conteiner-footer{
+    padding: 120px 15px 0px 15px;
+    display: block;
+    width: 264px;
+    height: 112px;
 }
 .footer-logo{
     font-family: "Raleway",sans-serif;
@@ -390,8 +432,6 @@ color: #434455;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
-.footer-logo 
 .footer-logo-part{
     color: #f4f4fd;
 }
@@ -402,3 +442,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
+.div-text-footer{
+padding: 16px 0;
+
+}
+
+
+
