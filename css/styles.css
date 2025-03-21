@@ -123,6 +123,23 @@ align-items: center;
     background-color: #2e2f42;
     height: 600px;
 }
+.conteiner-btn{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    
+}
+.div-conteiner-btn{
+    display: flex;
+    max-width: 496px;
+    height: 120px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column
+}
 
 
 
@@ -134,8 +151,10 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: #ffffff;
 text-align: center;
+margin-bottom:48px;
 
 }
+
 
 
 
@@ -147,6 +166,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
+
 
 }
 .btn{
@@ -180,35 +200,36 @@ cursor: pointer;
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
+        display: flex;
+        
        
        
     }
     .benefits-list{ 
-       
+        gap: 24px;
        display: flex;
        padding: 100px 0;
+   
     }
         .benefits-item{
-            width: 264px;
-            height: 104px;
+            max-width: 264px;
+            max-height: 104px;
             display: flex;
             display: block;
-            gap: 24px;
+            
+           
+            
             
     }
 
-
-
-
-
-
 .benefits-subtitle{
-font-weight: 500;
+    font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 padding: 8px;
+
 }
 
 .benefits-subtitle-text{
@@ -217,7 +238,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-padding: 8px 24px 120px;
+
+
+
 
 }
 
@@ -339,11 +362,9 @@ text-align: center;
 
 
 .div-img{
-    width: 360px;
+width: 360px;
 height: 420px
-    display: block; 
-   
-    
+display: block; 
 }
 
 
