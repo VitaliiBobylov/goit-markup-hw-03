@@ -114,14 +114,14 @@ align-items: center;
 
 /* button*/
 
-/*.conteiner{
-    padding: 188px 0;
-}*/
+
+
 
 .section-btn{
     max-width: 100%;
     background-color: #2e2f42;
     height: 600px;
+    padding: 188px 0;
 }
 .conteiner-btn{
     width: 1158px;
@@ -139,6 +139,7 @@ align-items: center;
     margin: 0 auto;
     align-items: center;
     flex-direction: column
+    
 }
 
 
