@@ -114,9 +114,7 @@ align-items: center;
 
 /* button*/
 
-.conteiner-btn-div{
-    
-}
+
 .section-btn{
     max-width: 100%;
     background-color: #2e2f42;
@@ -372,14 +370,13 @@ text-align: center;
 
 .div-img{
 width: 360px;
-height: 420px
-display: block; 
-}
+height: 420px;
+display: block;}
 
 
 .porfolio-images{
 
-background-color: #fffff;
+background-color: #fff;
 display: block;
 }
 
