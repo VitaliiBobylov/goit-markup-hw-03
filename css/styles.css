@@ -91,7 +91,6 @@ align-items: center;
     display: flex;
     align-items: center;
     gap: 40px;
-  
 }
 
 .contacts-link{
@@ -102,7 +101,6 @@ align-items: center;
     color: #434455;
     padding: 24px 0;
     display: block;
-   
 }
 
 .contacts-link:hover{
@@ -116,8 +114,9 @@ align-items: center;
 
 /* button*/
 
-
-
+.conteiner-btn-div{
+    
+}
 .section-btn{
     max-width: 100%;
     background-color: #2e2f42;
@@ -154,11 +153,15 @@ text-align: center;
 margin-bottom:48px;
 
 }
+.your-business-btn{
+    max-width: 496px;
+}
 
 
 
 
 .hero-button{
+    
     background-color: #4d5ae5;
     font-weight: 500;
 font-size: 16px;
@@ -170,6 +173,12 @@ cursor: pointer;
 
 }
 .btn{
+    cursor: pointer;
+    background-color:#4d5ae5;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    display: block; 
     border-radius: 4px;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
