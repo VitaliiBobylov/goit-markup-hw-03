@@ -46,7 +46,9 @@ a {
     display: flex;
 border-bottom: 1px solid #e7e9fc;
 }
-
+.container{
+  width: 1158px;
+}
 .div-your-business{
 flex-direction: column;
 }
@@ -308,12 +310,20 @@ color: #434455;
 /*portrfolio*/
 
 .portfolio {
+  text-align: center;
 width: 1158px;
 margin: 0 auto;
-padding: 120px 15px;
-display: block;
+padding: 120px 0px;
+display: block; 
+flex-direction: column;
+
+
+}
+.container{
+  padding: 0 15px;
 }
 .subtitle-portfolio-h {
+
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -322,6 +332,7 @@ display: block;
     color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
+    
 }
 
 .portfolio-list {
@@ -369,7 +380,7 @@ color: #434455;
 margin: 0 auto;
 width: 1158px;
 height: 312px;
-padding: 100px 15px;
+padding: 100px 0;
 background-color: #2e2f42;
 }
 
