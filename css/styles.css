@@ -44,21 +44,18 @@ ul, ol {
 /* heder*/
 
 .page-header {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
+display: flex;
 border-bottom: 1px solid #e7e9fc;
 }
 
 .div-your-business{
 flex-direction: column;
 }
-.container{
+.conteiner{
   width: 1158px;
 }
-
 .conteiner-header{
+
 display: flex;
 align-items: center;
 }
