@@ -255,22 +255,15 @@ color: #434455;
 /*foto*/
 
 .team {
-  width: 1158px;
+width: 1158px;
 padding: 120px 0 120px;
 margin: 0 auto;
 background-color: #f4f4fd;
 }
-.container-team{
-  width: 1158px;
-margin: 0 auto;
-padding:0 15px;
-text-align: center;
-display: block; 
-justify-content: center;
-}
+
 .container-subtitle-h{
-  flex-direction: column;
-  align-items: center;
+flex-direction: column;
+align-items: center;
 }
 
 .subtitle-team {
@@ -284,9 +277,20 @@ color: #2e2f42;
 text-transform: capitalize;
 }
 
+.container-team{
+width: 1158px;
+margin: 0 auto;
+padding:0 15px;
+text-align: center;
+display: block; 
+justify-content: center;
+
+}
+
 .team-list {
-display: flex;
-gap: 24px;
+  display: block;
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
