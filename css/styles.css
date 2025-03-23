@@ -48,6 +48,8 @@ border-bottom: 1px solid #e7e9fc;
 }
 .conteiner{
   align-items: center;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .conteiner-header{
@@ -136,19 +138,18 @@ align-items: center;
 /* button*/
 
 .section-btn {
-  background-color: #2e2f42;
-  height: 600px;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
+margin: 0 auto;
+display: block;
+background-color: #2e2f42;
+width: 1158px;
+height: 600px;l
+padding: 188px 0px;
 }
 
 .div-conteiner-btn {
-  padding: 188px 0;
-  display: flex;
-  flex-direction: column;
+display: block;
+text-align: center;
+flex-direction: column;
 }
 
 .your-business {
@@ -157,24 +158,20 @@ align-items: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
   margin-bottom: 48px;
 }
 .your-business-btn {
-  max-width: 496px;
+max-width: 496px;
 }
 
 .hero-button {
-  background-color: #4d5ae5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  cursor: pointer;
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #fff;
 }
 
 .btn {
+  text-align: center;
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
@@ -288,6 +285,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .text-images {
+display: block;
 text-align: center;
 font-weight: 400;
 font-size: 16px;
