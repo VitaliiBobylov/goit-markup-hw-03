@@ -33,7 +33,7 @@ a {
   display: flex;
   align-items: center;
 }
-.img{
+.images-team.porfolio-images{
     display: block
 }
 
@@ -46,9 +46,9 @@ a {
     display: flex;
 border-bottom: 1px solid #e7e9fc;
 }
-.conteiner{
-margin: 0 auto;
- padding: 0;
+
+.div-your-business{
+flex-direction: column;
 }
 
 .conteiner-header{
@@ -274,7 +274,7 @@ text-transform: capitalize;
 
 .team-list {
 display: flex;
-gep: 24px;
+gap: 24px;
 }
 
 .team-item {
