@@ -26,7 +26,7 @@ p {
 a {
   text-decoration: none;
 }
-.conteiner {
+.container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -216,7 +216,7 @@ color: #fff;
   overflow: hidden;
 }
 
-.conteiner {
+.container {
 padding: 0 15px;
 }
 .benefits-list {
@@ -257,7 +257,7 @@ padding: 120px 0 120px;
 display: block;
 background-color: #f4f4fd;
 }
-.conteiner{
+.container{
   padding: 0 15px;
 }
 
@@ -373,7 +373,7 @@ padding: 100px 15px;
 background-color: #2e2f42;
 }
 
-.conteiner-footer {
+.container-footer {
     display: block;
 }
 
