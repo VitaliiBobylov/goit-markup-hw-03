@@ -47,9 +47,8 @@ a {
 border-bottom: 1px solid #e7e9fc;
 }
 .conteiner{
-  align-items: center;
-  width: 1158px;
-  padding: 0 15px;
+margin: 0 auto;
+ padding: 0;
 }
 
 .conteiner-header{
@@ -142,7 +141,7 @@ margin: 0 auto;
 display: block;
 background-color: #2e2f42;
 width: 1158px;
-height: 600px;l
+height: 600px;
 padding: 188px 0px;
 }
 
@@ -196,7 +195,7 @@ color: #fff;
 .benefits {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 120px 0 120px;
   display: flex;
   font-weight: 500;
   font-size: 20px;
@@ -206,18 +205,27 @@ color: #fff;
 }
 .visually-hidden {
   position: absolute;
-}
-.conteiner {
-  margin: 0 auto;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.conteiner {
+padding: 0 15px;
 }
 .benefits-list {
   gap: 24px;
   display: flex;
-  padding: 100px 0;
+  
 }
 .benefits-item {
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4);
 width: 264px;
 height: 104px;
 display: block;
@@ -245,9 +253,12 @@ color: #434455;
 .team {
 width: 1158px;
 margin: 0 auto;
-padding: 120px 15px;
+padding: 120px 0 120px;
 display: block;
 background-color: #f4f4fd;
+}
+.conteiner{
+  padding: 0 15px;
 }
 
 .subtitle-team {
@@ -263,7 +274,7 @@ text-transform: capitalize;
 
 .team-list {
 display: flex;
-gap: 24px;
+gep: 24px;
 }
 
 .team-item {
