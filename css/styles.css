@@ -30,8 +30,6 @@ a {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
 }
 .images-team {
   display: block;
@@ -45,17 +43,14 @@ ol {
 /* heder*/
 
 .page-header {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .div-your-business {
   flex-direction: column;
 }
-.conteiner {
-  width: 1158px;
-}
-.conteiner-header {
+
+.container-header {
   display: flex;
   align-items: center;
 }
@@ -141,21 +136,17 @@ ol {
 /* button*/
 
 .section-btn {
-  margin: 0 auto;
-  display: block;
   background-color: #2e2f42;
-  width: 1158px;
-  height: 600px;
   padding: 188px 0px;
 }
 
 .div-conteiner-btn {
-  display: block;
-  text-align: center;
-  flex-direction: column;
+  display: flex;
 }
 
 .your-business {
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -168,6 +159,8 @@ ol {
 }
 
 .hero-button {
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
@@ -197,10 +190,7 @@ ol {
 /* section-text*/
 
 .benefits {
-  width: 1158px;
-  margin: 0 auto;
   padding: 120px 0 120px;
-  display: flex;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -220,9 +210,6 @@ ol {
   overflow: hidden;
 }
 
-.container {
-  padding: 0 15px;
-}
 .benefits-list {
   gap: 24px;
   display: flex;
@@ -230,9 +217,6 @@ ol {
 
 .benefits-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
-  width: 264px;
-  height: 104px;
-  display: block;
 }
 
 .benefits-subtitle {
@@ -255,16 +239,8 @@ ol {
 /*foto*/
 
 .team {
-  width: 1158px;
   padding: 120px 0 120px;
-  margin: 0 auto;
   background-color: #f4f4fd;
-}
-
-.container-subtitle-h {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .subtitle-team {
@@ -319,15 +295,9 @@ ol {
 
 /*portrfolio*/
 .portfolio {
-  width: 1158px;
-  margin: 0 auto;
   padding: 120px 0px;
 }
-.container-portfolio-h {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .subtitle-portfolio-h {
   margin-bottom: 72px;
   font-weight: 700;
@@ -383,9 +353,6 @@ ol {
 /*footer*/
 
 .footer {
-  margin: 0 auto;
-  width: 1158px;
-  height: 312px;
   padding: 100px 0;
   background-color: #2e2f42;
 }
